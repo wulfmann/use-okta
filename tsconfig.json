@@ -5,6 +5,7 @@
         "strict": true,
         "resolveJsonModule": true,
         "esModuleInterop": true,
-        "skipLibCheck": false
+        "skipLibCheck": false,
+        "jsx": "react"
     }
 }

@@ -1,0 +1,13 @@
+{
+    "name": "use-okta-example-with-next",
+    "private": true,
+    "scripts": {
+        "dev": "next"
+    },
+    "dependencies": {
+        "react": "latest",
+        "react-dom": "latest",
+        "next": "latest",
+        "use-okta": "latest"
+    }
+}
