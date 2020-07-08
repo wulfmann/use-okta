@@ -1,4 +1,5 @@
 node_modules
 
 */**/*.js
-*/**/*.index.d.ts
+*/**/*.d.ts
+!lib/types/**/*.d.ts
