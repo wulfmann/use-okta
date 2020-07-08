@@ -1,6 +1,6 @@
 {
   "name": "use-okta",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Hooks for Okta Authentication",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -10,7 +10,7 @@
   "files": [
     "lib"
   ],
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "tsc -w",
     "build": "tsc"
