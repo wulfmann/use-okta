@@ -1,7 +1,13 @@
 import React, { useContext, createContext, useMemo, useState } from 'react';
 import { Auth } from './service';
 
-export const AuthContext = createContext({});
+export interface AuthContext {
+    auth?: Auth;
+}
+
+export const AuthContext = createContext<AuthContext>({
+    auth: undefined
+});
 
 export interface AuthProviderProps {
     config: OktaConfig;
