@@ -1,0 +1,28 @@
+{
+  "name": "use-okta",
+  "version": "1.0.0",
+  "description": "React Hooks for Okta Authentication",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": "git@github.com:wulfmann/use-okta.git",
+  "author": "Joe Snell <joepsnell@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "private": true,
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@okta/okta-auth-js": "^3.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.20",
+    "typescript": "^3.9.6"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
+  }
+}
