@@ -7,5 +7,14 @@
         "esModuleInterop": true,
         "skipLibCheck": false,
         "jsx": "react"
-    }
+    },
+    "typeRoots": [
+        "./lib/types",
+        "./node_modules/@types"
+    ],
+    "exclude": [
+        "node_modules",
+        "typings"
+    ],
+    "include": ["./lib/**/*.ts"]
 }

@@ -3,7 +3,12 @@ import { Auth } from './service';
 
 export const AuthContext = createContext({});
 
-export const AuthProvider = ({ config, children }: any) => {
+export interface AuthProviderProps {
+    config: OktaConfig;
+    children: React.ReactNode;
+}
+
+export const AuthProvider = ({ config, children }: AuthProviderProps) => {
     const initialAuth = useMemo(() => new Auth(config), []);
     const [auth] = useState(initialAuth);
 
