@@ -1,11 +1,11 @@
 import React, { useContext, createContext, useMemo, useState } from 'react';
 import { Auth } from './service';
 
-export interface AuthContext {
+export interface IAuthContext {
     auth?: Auth;
 }
 
-export const AuthContext = createContext<AuthContext>({
+export const AuthContext = createContext<IAuthContext>({
     auth: undefined
 });
 
